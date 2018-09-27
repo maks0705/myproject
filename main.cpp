@@ -5,12 +5,16 @@ using namespace std;
 
 int main(){
 
-    int a = 10;
-    int b = 20; 
-    int c = addition(a,b);
+    int a,b;
 
-    cout << c << endl;
+    cout << "Vvedite dva chisla \n";
+
+    cin >> a >> b;
+
+    cout<< "Prybavlenie " << add(a,b) << endl;
+    cout<< "Otnimanie " << dif(a,b) << endl;
+    cout<< "Ymnozenie " << mul(a,b) << endl;
+    cout<< "Delenie " << div(a,b) << endl;
 
     return 0;
 }
-
