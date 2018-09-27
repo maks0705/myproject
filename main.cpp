@@ -16,5 +16,6 @@ int main(){
     cout<< "Ymnozenie " << mul(a,b) << endl;
     cout<< "Delenie " << div(a,b) << endl;
 
+    cin >> a;
     return 0;
 }
